@@ -7,10 +7,10 @@ export default function header() {
     <header>
         <div> 
               <Link to="/"><img src={Logo} className="logo_img"/></Link>         
-              <Link to="/items"><ul className='nav'>
-                <li>Список товаров</li>
+             <ul className='nav'>
+             <Link to="/items"><li>Список товаров</li></Link>
               </ul>
-              </Link>
+              
         </div>
         <div className='presentation'></div>
     </header>
